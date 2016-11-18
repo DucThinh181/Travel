@@ -1,0 +1,55 @@
+body
+{
+	padding: 5%;
+	background-color: #F5F5F5;
+}
+
+table {
+	margin: 0 auto;
+
+}
+
+.table1{
+width: 500px;
+}
+
+th
+{
+	color: #00b0ff;
+	text-align: left;
+}
+
+.container
+{
+	background-color: white;
+	box-shadow: 5px 5px 5px #B0BEC5;
+	padding: 3%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	width: 85%;
+}
+
+i
+{
+	color: #00b0ff;
+}
+
+i:hover
+{
+	color: white;
+}
+
+.actionbar
+{
+	background-color: #00b0ff;
+	box-shadow: 5px 0px 5px #B0BEC5;
+	padding: 1%;
+	margin: 0 auto;
+	width: 85%;
+	text-align: center;
+}
+
+h3
+{
+	color: white;
+}

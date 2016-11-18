@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="template" template="/WEB-INF/view/template.jsp">
+        <put-attribute name="header" type="template" value="/WEB-INF/view/header.jsp" />
+        <put-attribute name="menu" type="template" value="/WEB-INF/view/menu.jsp" />
+        <put-attribute name="footer" type="template" value="/WEB-INF/view/footer.jsp" />
+    </definition>
+
+    <definition name="index" extends="template">
+        <put-attribute name="content" value="/WEB-INF/view/dashboard.jsp" />
+    </definition>
+
+    <definition name="country" extends="template">
+        <put-attribute name="content" value="/WEB-INF/view/country.jsp" />
+    </definition>
+
+    <definition name="city" extends="template">
+        <put-attribute name="content" value="/WEB-INF/view/city.jsp" />
+    </definition>
+</tiles-definitions>
